@@ -1,0 +1,815 @@
+/*about us design*/
+
+
+ /*header menu client design*/
+
+	.nave{
+		width:100%;
+		height:100px;
+		background:#0084de;
+	}
+	.bran{
+		font-family:noto;
+		font-size: 40px;
+		position:absolute;
+		font-weight:bold;
+		letter-spacing:2px;
+		color:#fff;
+		text-transform:uppercase;
+		margin-top:20px;
+		margin-left:105px;
+	}
+
+	
+	.sel{
+			border-radius:50%;
+			width:80px;
+			height:80px;
+			margin-left:10px;
+			margin-top:10px;
+			position:absolute;
+		}
+		.nev{
+			margin-left:87%;
+		}
+
+		.drope {
+			background: #68bdf6;
+				width: 160px;
+				height: 40px;
+				margin-left:-25%;
+				margin-top:35px;
+				position:absolute;
+				border:none;
+				font-size:18px;
+				list-style:none;
+				color:#fff;
+				text-decoration:none;
+				border-radius:15px;	
+				cursor:pointer;
+				border:1px solid #b2b2b2;
+}
+.drope i{
+	list-style:none;
+	margin-left:25%;
+	margin-top:8px;
+}
+
+.down {
+	position:absolute;
+  margin-top:none;
+  margin-left:-2%;
+  display: inline-block;
+}
+
+.coset{
+  display: none;
+  position: absolute;
+  margin-top: 75px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:5px;
+  list-style:none;
+}
+
+.coset a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-left:-33%;
+  
+}
+
+.coset a:hover {background-color: #f1f1f1;
+border-radius:5px;
+}
+
+.down:hover .coset{
+  display: block;
+}
+
+.down:hover .drope {
+	background: #a4d5f7;
+			text-decoration:none;
+}
+
+.cono{
+			width:100%;
+			height: 80px;
+			background: #d7eefd;
+			margin-top:-10px;
+		}
+		.pols > li{
+			float:left;
+			margin-top:20px;
+			list-style:none;
+			display:inline-block;
+		}
+		.pols> li > a{
+			border-radius:4px;
+		
+			font-size: 24px;
+			text-decoration:none;
+			font-family:noto;
+		}
+		.pols> li+ li{
+			margin-left: 30px;
+
+		}
+		.pols> li.active > a,
+		.pols> li.active> a:hover,
+		.pols> li.active >a:focus{
+			color:#fff;
+			background-color: #337ab7;
+		}
+
+        /*index client*/
+      
+
+
+		body{
+			width:100%;
+			height:100%;
+
+		}
+
+	.continer{
+		position:absolute;
+		background:#88d2f4;
+		border-radius:10px;
+		width: 32%;
+		height: 60%;
+		margin-top:15%;
+		margin-left:58%;
+	
+	}
+		.header{
+			background: #09a7f0;
+			width:100%;
+			height: 80px;
+			margin-top:-39px;
+			padding: 10px 15px;
+  			border-bottom: 1px solid transparent;
+  			border-top-left-radius: 3px;
+  			border-top-right-radius: 3px;
+		}
+		.heder{
+			color:#fff;
+			font-family:noto;
+			letter-spacing:2px;
+			font-size:25px;
+			text-transform:uppercase;
+			position: absolute;
+			margin-left: 135px;
+		}
+		.formcon{
+			width: 90%;
+			height: 40px;
+			margin-top:2%;
+			margin-left:5%;
+			border-radius: 5px;
+			border: 1px solid #2f2f2f;
+			font-family: 'noto';
+			font-size:15px;
+		}
+		.nim{
+			letter-spacing: 2px;
+			font-family: noto;
+			font-size: 17px;
+			text-transform: uppercase;
+			margin-top: 15px;
+			margin-left: 15px;
+		}
+		.butmit{
+			width: 90%;
+			height: 40px;
+			margin-left: 20px;
+			color:#fff;
+			background:#2f78c9;
+			border-radius: 5px;
+			border: 1px solid #b1b1b1;
+		}
+
+		.butmit:hover{
+			background: #6facef;
+			
+		}
+		.seal{
+			margin-top: 15%;
+			margin-left: 21%;
+			position: absolute;
+			border-radius:50%;
+			width:180px;
+			height:180px;
+		}
+		.wave{
+			position:absolute;
+			width:100%;
+			height:60%;
+		}
+
+		.wel{
+			position:absolute;
+			margin-top: 29%;
+			margin-left:8%;
+			font-family: noto;
+			font-size: 32px;
+			text-transform: uppercase;
+		}
+		.dec{
+			position:absolute;
+			margin-top: 32%;
+			margin-left: 11%;
+			font-size: 28px;
+			font-family: 'Jost';
+		}
+		.wev{
+			position:absolute;
+			width:100%;
+			height:60%;
+			margin-top:40%;
+		}
+
+        /*index admin*/
+ 
+
+
+
+/*availability admin*/
+
+	
+/*add-reserve room admin*/
+
+	.mek{
+		text-transform:uppercase;
+		letter-spacing: 2px;
+		font-size: 30px;
+		font-family:noto;
+		font-weight: bold;
+		margin-top: 25px;
+		margin-left:20px;
+		color:#000;
+	}
+	.pan1{
+		width:100%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+		
+
+	}
+	.tpe{
+		font-size: 35px;
+		font-family:noto;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-left: 15px;
+		margin-top:10px;
+		color:#000;
+	}
+	.dcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:20px;
+		color: #000;
+	}
+	.pes, .pcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:25px;
+		color: #000;
+	}
+	.pts{
+		float:left;
+		margin-left:20px;
+		height:300px;
+		width:400px;
+		border-radius:10px;
+		border:1px solid #b2b2b2;
+	
+	}
+	.frm{
+		width: 40%;
+		margin-top:-28.8%;
+		margin-left:55%;
+		position:absolute;
+		background:#98d3fa;
+		height: 500px;
+		border-bottom-right-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.pen{
+		width:95%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+		
+		
+		
+	}
+	.pan{
+		border:1px solid #f2f2f2;
+		margin: 30px 20px 30px 20px;
+		width:95%;
+		height:500px;
+		border-radius:10px;
+		
+	}
+	.lel{
+		font-size: 18px;
+		font-family:noto;
+		letter-spacing:2px;
+		color: #4f4f4f;
+		margin-left:15px;
+		margin-top:8px;
+	}
+	.ori{
+		width:90%;
+		height:30px;
+		margin-left:20px;
+		margin-top:2px;
+		border:1px solid #f2f2f2;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+	}
+
+	.bets{
+		width:90%;
+		height:40px;
+		margin-left:20px;
+		margin-top:0;
+		border:none;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+		color:#fff;
+		background:#24a0f2;
+	}
+	.bets:hover{
+		background:#6bc0f7;
+	}
+
+/*event availability admin*/
+
+	.tpe{
+		font-size: 35px;
+		font-family:noto;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-left: 10px;
+		margin-top:10px;
+		color:#000;
+	}
+	.dcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 10px; 
+		margin-top:20px;
+		color: #000;
+	}
+	.pes, .pcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 10px; 
+		margin-top:25px;
+		color: #000;
+	}
+	.rebuut{
+		width:8%;
+		height:35px;
+		border:none;
+		background:#24a0f2;
+		color:#fff;
+		border-radius:5px;
+		margin-top:-30px;
+		position:absolute;
+		margin-left:55%;
+	}
+	.rebuut:hover{
+		background:#6bc0f7;
+        
+	}
+	.rebuut a{
+		color:#fff;
+		text-decoration:none;
+        
+		
+	}
+    .rebuut a:hover{
+		color:#fff;
+		text-decoration:none;
+        
+		
+	}
+	
+    /*add reserve event admin*/
+ 
+	.mek{
+		text-transform:uppercase;
+		letter-spacing: 2px;
+		font-size: 30px;
+		font-family:noto;
+		font-weight: bold;
+		margin-top: 25px;
+		margin-left:20px;
+		color:#000;
+	}
+	.pan1{
+		width:100%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+	
+
+	}
+	.tpe{
+		font-size: 35px;
+		font-family:noto;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-left: 15px;
+		margin-top:10px;
+		color:#000;
+	}
+	.dcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:20px;
+		color: #000;
+	}
+	.pes, .pcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:25px;
+		color: #000;
+	}
+	.pts{
+		float:left;
+		margin-left:20px;
+		height:300px;
+		width:400px;
+		border-radius:10px;
+		border:1px solid #b2b2b2;
+	
+	}
+	.frm{
+		width: 40%;
+		margin-top:-28.8%;
+		margin-left:55%;
+		position:absolute;
+		background:#98d3fa;
+		height: 500px;
+		border-bottom-right-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.pen{
+		width:95%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+		
+		
+	}
+	.pan{
+		border:1px solid #f2f2f2;
+		margin: 30px 20px 30px 20px;
+		width:95%;
+		height:500px;
+		border-radius:10px;
+		margin-top:-20px;
+	}
+	.lel{
+		font-size: 18px;
+		font-family:noto;
+		letter-spacing:2px;
+		color: #4f4f4f;
+		margin-left:20px;
+		margin-top:8px;
+	}
+	.ori{
+		width:90%;
+		height:30px;
+		margin-left:20px;
+		margin-top:2px;
+		border:1px solid #f2f2f2;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+	}
+
+	.bets{
+		width:90%;
+		height:40px;
+		margin-left:20px;
+		margin-top:2px;
+		border:none;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+		color:#fff;
+		background:#24a0f2;
+	}
+	.bets:hover{
+		background:#6bc0f7;
+	}
+
+	/*contact us design client*/
+	
+	.sts{
+		width:350px;
+		height:300px;
+		margin-left:50px;
+		border-radius:10px;
+		border:1px solid #7d7d7d;
+		
+	}
+	.conac{
+		text-transform:uppercase;
+	font-size: 35px;
+	font-family:noto;
+	font-weight:bold;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	}
+	.corane{
+		width:90%;
+	margin-left: 5%;
+	}
+	.ddo{
+		font-family:'noto';
+		font-size: 22px;
+		margin-left:32%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#3282f2;
+		position:absolute;
+		margin-top:-24%;
+	}
+	.pddo{
+		font-family:'jost';
+		font-size: 18px;
+		margin-left:45.5%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#7d7d7d;
+		position:absolute;
+		margin-top:-23.7%;
+		text-align:justify;
+		text-justify:inter-word;
+		width:20%;
+
+	}
+	.conio{
+		font-family:'noto';
+		font-size: 22px;
+		margin-left:32%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#3282f2;
+		position:absolute;
+		margin-top:-16%;
+	}
+	 .pconio{
+		font-family:'jost';
+		font-size: 18px;
+		margin-left:45.5%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#7d7d7d;
+		position:absolute;
+		margin-top:-15.7%;
+		
+	}
+	.emor{
+		font-family:'noto';
+		font-size: 22px;
+		margin-left:32%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#3282f2;
+		position:absolute;
+		margin-top:-13%;
+	}
+	.pemor{
+		font-family:'jost';
+		font-size: 18px;
+		margin-left:45.5%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#7d7d7d;
+		position:absolute;
+		margin-top:-12.7%;
+	}
+	.hrs{
+		font-family:'noto';
+		font-size: 22px;
+		margin-left:32%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#3282f2;
+		position:absolute;
+		margin-top:-9%;
+	}
+	.phrs{
+		font-family:'jost';
+		font-size: 18px;
+		margin-left:45.5%;
+		font-weight:400;
+		letter-spacing:3px;
+		color:#7d7d7d;
+		position:absolute;
+		margin-top:-8.7%;
+	}
+
+
+	/*gallery design client*/
+	
+		
+			/*availability client*/
+
+	.cpe{
+		font-size: 35px;
+		font-family:noto;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-left: 10px;
+		margin-top:10px;
+		color:#000;
+	}
+	.cdcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 10px; 
+		margin-top:20px;
+		color: #000;
+	}
+	.cpes, .cpcs{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 10px; 
+		margin-top:25px;
+		color: #000;
+	}
+	.crebut{
+		width:8%;
+		height:35px;
+		border:none;
+		background:#24a0f2;
+		color:#fff;
+		border-radius:5px;
+		margin-top:-40px;
+		position:absolute;
+		margin-left:55%;
+	}
+	.crebut:hover{
+		background:#6bc0f7;
+	}
+	.crebut a{
+		color:#fff;
+		text-decoration:none;
+		
+	}
+    .crebut a:hover{
+		color:#fff;
+		text-decoration:none;
+        
+		
+	}
+
+	/* room reserve client*/
+
+	.meko{
+		text-transform:uppercase;
+		letter-spacing: 2px;
+		font-size: 30px;
+		font-family:noto;
+		font-weight: bold;
+		margin-top: 25px;
+		margin-left:20px;
+		color:#000;
+	}
+	.pano1{
+		width:100%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+		
+
+	}
+	.tpeo{
+		font-size: 35px;
+		font-family:noto;
+		font-weight: bold;
+		letter-spacing: 2px;
+		margin-left: 15px;
+		margin-top:10px;
+		color:#000;
+	}
+	.dcso{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:20px;
+		color: #000;
+	}
+	.peso, .pcso{
+		font-size: 20px;
+		font-family: noto;
+		font-weight: 300;
+		margin-left: 15px; 
+		margin-top:25px;
+		color: #000;
+	}
+	.ptso{
+		float:left;
+		margin-left:20px;
+		height:300px;
+		width:400px;
+		border-radius:10px;
+		border:1px solid #b2b2b2;
+	
+	}
+	.frmo{
+		width: 40%;
+		margin-top:-28.8%;
+		margin-left:55%;
+		position:absolute;
+		background:#98d3fa;
+		height: 500px;
+		border-bottom-right-radius:10px;
+		border-top-right-radius:10px;
+	}
+	.peno{
+		width:95%;
+		height: 100%;
+		border-radius: 5px;
+		background:#fff;
+		
+		
+		
+	}
+	.pano{
+		border:1px solid #f2f2f2;
+		margin: 30px 20px 30px 20px;
+		width:95%;
+		height:500px;
+		border-radius:10px;
+		
+	}
+	.lelo{
+		font-size: 18px;
+		font-family:noto;
+		letter-spacing:2px;
+		color: #4f4f4f;
+		margin-left:15px;
+		margin-top:8px;
+	}
+	.orio{
+		width:90%;
+		height:30px;
+		margin-left:20px;
+		margin-top:2px;
+		border:1px solid #f2f2f2;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+	}
+
+	.beots{
+		width:90%;
+		height:40px;
+		margin-left:20px;
+		margin-top:0;
+		border:none;
+		border-radius: 7px;
+		color:#000;
+		font-size: 17px;
+		font-family:'Jost';
+		color:#fff;
+		background:#24a0f2;
+	}
+	.beots:hover{
+		background:#6bc0f7;
+	}
